@@ -15,7 +15,7 @@ if ($img1 != '' && $img2 != '') {
     $diff = imageCompare($img1, $img2);
 	//  $ans=neat_r($diff);
    $_SESSION["diff"]=$diff;
-header("Location: new.php");
+header("Location: /new.php");
 
 }
 
